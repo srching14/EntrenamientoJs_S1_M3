@@ -15,7 +15,7 @@ body {
   align-items: center;
   padding: 2rem;
   color: #333;
-  min-width: 320px;
+  min-width: 190px;
 }
 
 /* MAIN CONTAINER */
@@ -26,7 +26,7 @@ body {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
   max-width: 500px;
   width: 100%;
-  min-width: 320px;
+  min-width: 190px;
   text-align: center;
   transition: transform 0.3s ease;
 }
@@ -61,7 +61,7 @@ input {
 }
 
 input:focus {
-  border-color: #ff0000;
+  border-color: #000000;
   outline: none;
 }
 
