@@ -6,7 +6,7 @@
   box-sizing: border-box;
   font-family: 'Open Sans'
   }
-/* CUERPO */
+/* BODY */
 body {
   background: linear-gradient(135deg, #838383, #000000);
   min-height: 100vh ;
@@ -18,7 +18,7 @@ body {
   min-width: 320px;
 }
 
-/* CONTENEDOR PRINCIPAL */
+/* MAIN CONTAINER */
 .contenedor {
   background: #ffffffee;
   padding: 2rem 3rem;
@@ -35,14 +35,14 @@ body {
   transform: scale(1.02);
 }
 
-/* TITULO */
+/* TITLE */
 h1 {
   margin-bottom: 1.5rem;
   font-size: 2rem;
   color: #4a4a4a;
 }
 
-/* ETIQUETAS E INPUTS */
+/* labels and inputs */
 label {
   display: block;
   margin-top: 1rem;
@@ -65,7 +65,7 @@ input:focus {
   outline: none;
 }
 
-/* BOTÓN */
+/* BUTTON*/
 button {
   margin-top: 1.5rem;
   padding: 0.9rem 1.5rem;
@@ -84,7 +84,7 @@ button:hover {
   transform: scale(1.05);
 }
 
-/* RESULTADO */
+/* RESULT */
 .result {
   margin-top: 2rem;
   font-size: 2rem;
@@ -112,7 +112,7 @@ button:hover {
   padding: 0;
  }
 
-/* para mantener el footer debajo en pantallas de pc*/
+/* to keep the footer at the bottom on PC screens*/
 @media screen and (min-height: 600px) {
   body {
     flex-direction: column;
@@ -147,7 +147,7 @@ button:hover {
   }
 }
 
-/* Celulares */
+/* Cell phone */
 @media screen and (max-width: 480px) {
   .contenedor {
     padding: 1rem 1.2rem;

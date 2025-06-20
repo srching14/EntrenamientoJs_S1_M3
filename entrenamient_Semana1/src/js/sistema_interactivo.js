@@ -1,20 +1,20 @@
-// esto permte que mentras no le den click no haga nada 
+// This allows it to do nothing as long as it is not clicked.
 document.getElementById('btn-execute').onclick = function () {
   // variables 
   let nombre = document.getElementById('nombre').value;
   let edad = document.getElementById('edad').value;
   let mensaje = document.getElementById('mensaje');
 
-  // Por si el usuario no digita nada
+  // In case the user does not enter anything
   if (nombre === '' || edad === '') {
     mensaje.textContent = 'Por favor, llena todos los campos.';
     return;
   }
 
-  // Convierte la edad a número
+  // Convert age to number
   edad = Number(edad);
 
-  // valida si es mayor o menor 
+  // valid if it is greater or less
   if (edad >= 18) {
     mensaje.textContent ='Hola ' + nombre + ' ,eres mayor de edad. Preparate para grandes oportunidades en el mundo de la programación!';
   } else {
