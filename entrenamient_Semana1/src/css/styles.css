@@ -1,0 +1,168 @@
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans'
+  }
+/* CUERPO */
+body {
+  background: linear-gradient(135deg, #838383, #000000);
+  min-height: 100vh ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  color: #333;
+  min-width: 320px;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.contenedor {
+  background: #ffffffee;
+  padding: 2rem 3rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  max-width: 500px;
+  width: 100%;
+  min-width: 320px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.contenedor:hover {
+  transform: scale(1.02);
+}
+
+/* TITULO */
+h1 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #4a4a4a;
+}
+
+/* ETIQUETAS E INPUTS */
+label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 0.3rem;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #ff0000;
+  outline: none;
+}
+
+/* BOTÓN */
+button {
+  margin-top: 1.5rem;
+  padding: 0.9rem 1.5rem;
+  background: linear-gradient(to right, #777777, #000000);
+  border-radius: 50px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+button:hover {
+  background: linear-gradient(to right, #000000, #777777);
+  transform: scale(1.05);
+}
+
+/* RESULTADO */
+.result {
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #000000;
+  min-height: 40px;
+}
+
+/* FOOTER */
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  background-color: #ffffffcc;
+  color: #222;
+  font-size: 0.9rem;
+  position: relative;
+  border-radius: 25px;
+}
+
+.giithub{
+  width: 1em;
+  height: 1em;
+  padding: 0;
+ }
+
+/* para mantener el footer debajo en pantallas de pc*/
+@media screen and (min-height: 600px) {
+  body {
+    flex-direction: column;
+  }
+
+  .contenedor {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .footer {
+    margin-top: auto;
+  }
+}
+
+
+/* Tablets */
+
+
+@media screen and (max-width: 768px) {
+  .contenedor {
+    padding: 1.5rem 2rem;
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+/* Celulares */
+@media screen and (max-width: 480px) {
+  .contenedor {
+    padding: 1rem 1.2rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  input {
+    font-size: 0.95rem;
+  }
+
+  button {
+    font-size: 0.95rem;
+    padding: 0.8rem;
+  }
+}
