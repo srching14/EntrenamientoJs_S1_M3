@@ -1,2 +1,0 @@
-# Entrenamiento_S1
-

@@ -16,6 +16,7 @@ body {
   padding: 2rem;
   color: #333;
   min-width: 190px;
+
 }
 
 /* MAIN CONTAINER */
@@ -39,7 +40,7 @@ body {
 h1 {
   margin-bottom: 1.5rem;
   font-size: 2rem;
-  color: #4a4a4a;
+  color: #ffffff;
 }
 
 /* labels and inputs */
